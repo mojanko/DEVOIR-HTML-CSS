@@ -1,0 +1,45 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+}
+.umbrella_logo{
+    width: 60px;
+}
+h1{
+    font-size: 250%;
+    background-color: darkred;
+    color: white;
+}
+h2 span{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    font-size: 150%;
+    text-align: center;
+}
+.herb_name{
+    font-weight: bold;
+}
+ul{
+    list-style:none;
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+h3{
+    font-size: 19px;
+}
+h5{
+    font-size: 15px;
+}
