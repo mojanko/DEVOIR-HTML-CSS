@@ -8,6 +8,39 @@ body{
 .umbrella_logo{
     width: 60px;
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #5f5f5f;
+    position: relative;
+    text-align: center;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a.icon {
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .active {
+    background-color: #af2e18;
+    color: white;
+  }
+
 h1{
     font-size: 250%;
     background-color: darkred;
@@ -43,3 +76,38 @@ h3{
 h5{
     font-size: 15px;
 }
+
+.dark_mode {
+    background-color: black;
+    color: white;
+  }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #a5a5a5; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #aa1704;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a05345;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #aaaaaa;
+    padding: 20px;
+  }

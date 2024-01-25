@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMBRELLA CORPORATION</title>
     <link rel="stylesheet" href="css/mainpage.css">
+    <script src="./js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -15,7 +16,21 @@
         <h1>UMBRELLA CORPORATION</h1>
     </header>
     <nav>
+        <div class="topnav">
+            <a href="#mainpage" class="active">NAVIGATE</a>
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="linksfunc()">
+            <i class="fa fa-bars"></i>
+        </a>
+</div>
         <a href="warning.html">?????</a>
+        <p>
+            <button onclick="dark()">DARK MODE</button>
+        </p>
     </nav>
     <section>
         <article>
@@ -43,6 +58,25 @@
             </ul>
             <p class="conclusion_herbs">REMEMBER, you may mix herbs altogether for multiple wished results.</p>
         </article>
+    </section>
+    <section>
+        <div class="container">
+            <p>Interested to join the corportation? Fill in our form now!</p>
+            <form action="action_page.php">
+          
+              <label for="fname">FIRST NAME</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">LAST NAME</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">WHY ARE YOU INTERESTED TO JOIN US?</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </section>
     <footer>
         <h5>UMBRELLA CORPORATION ©</h5>
